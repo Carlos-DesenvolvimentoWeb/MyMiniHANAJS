@@ -1,0 +1,4 @@
+{"timestamp":"2026-03-14T17:52:25.115Z","operation":"INSERT","data":{"product":"Pendrive","price":119,"quantity":100}}
+{"timestamp":"2026-03-14T17:57:38.077Z","operation":"SAVE","data":"Base de dados salva."}
+{"timestamp":"2026-03-14T17:57:58.451Z","operation":"UPDATE","data":{"product":"Pendrive","result":{"oldQty":100,"newQuantity":"89"}}}
+{"timestamp":"2026-03-14T17:58:10.904Z","operation":"SAVE","data":"Base de dados salva."}

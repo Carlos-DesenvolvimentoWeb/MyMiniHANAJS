@@ -1,18 +1,23 @@
 const express = require('express');
-const MiniHana = require('./MiniHana');
+const cors = require('cors');
 const app = express();
+const MiniHana = require('./MiniHana');
 const db = new MiniHana();
 const port = 3000;
 const TransactionLogger = require('./TransactionLogger');
 const logger = new TransactionLogger();
+app.use(cors()); 
 app.use(express.json());
 db.loadFromCSV('estoque.csv');
 
 app.post('/api/inventory/insert', (req, res) => {
     try {
-        const { product, price, quantity } = req.body;
+        let { product, price, quantity } = req.body;
 
-        // 1. Validação básica (Importante para não corromper as colunas)
+        price = parseFloat(price);
+        quantity = parseInt(quantity);
+
+        // 1. Validação (Importante para não corromper as colunas)
         if (!product || price === undefined || quantity === undefined) {
             return res.status(400).json({ 
                 error: "Dados incompletos. Envie product, price e quantity." 
@@ -117,8 +122,7 @@ app.post('/api/inventory/save', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`MiniHANA running at http://localhost:${port}/`); // Log a message when the server starts
-//   db.loadFromCSV('estoque.csv');
+    console.log(`MiniHANA running at http://localhost:${port}/`); // Log a message when the server starts
 });
 
 process.on('SIGINT', () => {

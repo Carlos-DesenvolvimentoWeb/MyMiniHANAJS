@@ -1,4 +1,16 @@
-{"timestamp":"2026-03-14T17:52:25.115Z","operation":"INSERT","data":{"product":"Pendrive","price":119,"quantity":100}}
-{"timestamp":"2026-03-14T17:57:38.077Z","operation":"SAVE","data":"Base de dados salva."}
-{"timestamp":"2026-03-14T17:57:58.451Z","operation":"UPDATE","data":{"product":"Pendrive","result":{"oldQty":100,"newQuantity":"89"}}}
-{"timestamp":"2026-03-14T17:58:10.904Z","operation":"SAVE","data":"Base de dados salva."}
+{"timestamp":"2026-03-14T22:11:40.368Z","operation":"INSERT","data":{"product":" Mouse Ergonomico Wireless","price":159.9,"quantity":45}}
+{"timestamp":"2026-03-14T22:11:40.455Z","operation":"INSERT","data":{"product":" Teclado Mecanico RGB","price":349,"quantity":12}}
+{"timestamp":"2026-03-14T22:11:40.524Z","operation":"INSERT","data":{"product":" Monitor 27 Polegadas 4K","price":1850,"quantity":8}}
+{"timestamp":"2026-03-14T22:11:40.594Z","operation":"INSERT","data":{"product":" Webcam Full HD 1080p","price":210.5,"quantity":30}}
+{"timestamp":"2026-03-14T22:11:40.673Z","operation":"INSERT","data":{"product":" Headset Gamer 7.1","price":420,"quantity":5}}
+{"timestamp":"2026-03-14T22:11:40.731Z","operation":"INSERT","data":{"product":" Cadeira Escritorio Pro","price":1250,"quantity":15}}
+{"timestamp":"2026-03-14T22:11:40.811Z","operation":"INSERT","data":{"product":" Suporte Monitor Articulado","price":189,"quantity":60}}
+{"timestamp":"2026-03-14T22:11:40.904Z","operation":"INSERT","data":{"product":" SSD 1TB NVMe Gen4","price":580,"quantity":25}}
+{"timestamp":"2026-03-14T22:11:40.958Z","operation":"INSERT","data":{"product":" Memoria RAM 16GB DDR4","price":310,"quantity":40}}
+{"timestamp":"2026-03-14T22:11:41.025Z","operation":"INSERT","data":{"product":" Processador High-End v9","price":2400,"quantity":3}}
+{"timestamp":"2026-03-14T22:11:41.078Z","operation":"INSERT","data":{"product":" Gabinete Mid-Tower Mesh","price":450,"quantity":10}}
+{"timestamp":"2026-03-14T22:11:41.146Z","operation":"INSERT","data":{"product":" Fonte 750W 80 Plus Gold","price":680,"quantity":18}}
+{"timestamp":"2026-03-14T22:11:41.218Z","operation":"INSERT","data":{"product":" Cabo HDMI 2.1 - 2 Metros","price":45,"quantity":100}}
+{"timestamp":"2026-03-14T22:11:41.274Z","operation":"INSERT","data":{"product":" Docking Station USB-C","price":750,"quantity":7}}
+{"timestamp":"2026-03-14T22:11:41.321Z","operation":"INSERT","data":{"product":" Mousepad Extended Control","price":89.9,"quantity":55}}
+{"timestamp":"2026-03-14T22:11:41.399Z","operation":"SAVE","data":"Savepoint realizado com sucesso!"}

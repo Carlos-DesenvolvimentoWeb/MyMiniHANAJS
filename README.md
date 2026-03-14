@@ -1,1 +1,1 @@
-init
+Este projeto é um simulador de banco de dados In-Memory com armazenamento colunar, inspirado na arquitetura do SAP HANA. Desenvolvido para servir como o "cérebro" de automações de estoque (RPA), ele foca em alta performance para processos de ETL e Analytics.
